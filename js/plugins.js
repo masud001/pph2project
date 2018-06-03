@@ -24,7 +24,7 @@
 // Place any jQuery/helper plugins in here.
 
 $(document).ready(function(){
-  $('.owl-carousel').owlCarousel({
+  $('.testimonial-carousel').owlCarousel({
       loop:true,
       autoplay: true,
       mouseDrag: false,
@@ -36,20 +36,74 @@ $(document).ready(function(){
       nav:false,
       dots:true,
       lazyLoad:true,
-      // responsive:{
-      //     0:{
-      //         items:1,
-      //         nav:true
-      //     },
-      //     600:{
-      //         items:3,
-      //         nav:false
-      //     },
-      //     1000:{
-      //         items:5,
-      //         nav:true,
-      //         loop:false
-      //     }
-      // }
+      responsive:{
+          0:{
+              items:1,
+              nav:false
+          },
+          768:{
+              items:2,
+              nav:false
+          },
+          992:{
+              items:3,
+              nav:false
+              
+          }
+      }
+  })
+});
+
+// modal curosel 1
+$(document).ready(function(){
+  $('.modal-carousel').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:1,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// modal curosel-2
+$(document).ready(function(){
+  $('.modal-carousel-2').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:3,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// modal curosel-2
+$(document).ready(function(){
+  $('.modal-carousel-3').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:5,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
   })
 });
