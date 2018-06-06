@@ -72,8 +72,22 @@
     float: none;
 }
 
+.modal-upload-img {
+    height: 54%;
+}
+.modal-upload-img a span > i,
+.modal-upload-video a span i {
+    font-size: 1rem;
+}
 
-
+.modal-upload-img a span.upload-title {
+    font-size: .55rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.modal-upload-video a span.video-upload-title{
+    font-size: .55rem;
+}
 
 
 

@@ -72,8 +72,12 @@
     float: none;
 }
 
-
-
+.modal-upload-img {
+    height: 54%;
+}
+.modal-upload-img a span > i {
+    font-size: 1rem;
+}
 
 
 
