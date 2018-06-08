@@ -109,7 +109,23 @@ $(document).ready(function(){
   })
 });
 
-// modal curosel-video
+// magnificent popup init
 $(document).ready(function(){
+
+  $('.popup-image').magnificPopup({
+    items: [
+        {
+            src: 'https://www.youtube.com/watch?v=1ptt4R8XAt0',
+            type: 'iframe' // this overrides default type
+        }
+    ],
+    type: 'image' // this is a default type
+
+
+
+
+
+  });
+
 
 });

@@ -164,7 +164,7 @@ body {
 
 /*********************main header area***********************/
 header#main-header {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     background-color: #fff;
 }
 .navbar-area{
@@ -278,6 +278,7 @@ span i.fa-bars{
 /****************************container-heading-area**************/
 #container-heading-area {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .container-heading h1{
 	font-size: 2rem;
@@ -900,6 +901,7 @@ div.center div.testimonial-quote span i{
 	-webkit-background-size: cover;
 	background-size: cover;
 	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 .home-slider-wrapper{
 	background-image: url(../img/page-6/slider-overlay-1.png);
@@ -986,8 +988,23 @@ div.center div.testimonial-quote span i{
 	color: #fff;
 	font-size: 1rem;
 	margin-bottom: 1.5rem;
+	cursor: pointer;
+}
+.share-and-expand-btn a span i{
+	color: #fff;
+	font-size: 1rem;
+	margin-bottom: 1.5rem;
+	cursor: pointer;
 }
 
+.share-and-expand-btn a span i.fa-expand {
+	position: relative;
+	transition: .5s;
+
+}
+.share-and-expand-btn a span i.fa-expand:hover{
+	font-size: 1.5rem;
+}
 /*contastant-folia-btn-area start*/
 
 #contastant-folia-btn-area{}
@@ -998,7 +1015,9 @@ div.center div.testimonial-quote span i{
     border-radius: 30px;
     padding: .75rem;
 }
-.contastant-bth-area ul{}
+.contastant-bth-area ul.nav-tabs{
+	border-bottom: 0px !important;
+}
 .contastant-bth-area ul li{
 	display: inline;
 }
@@ -1418,11 +1437,69 @@ color: #fff;
 	display: block;
 	color:#ED1763;
 }
+
 .modal-upload-video a span.video-upload-title {
-    font-size: .75rem;
+    font-size: .50rem;
     font-weight: 800;
     margin-top: 1rem;
     color: #ED1763;
+    cursor: pointer;
+}
+
+.modal-upload-video input[type='file'] {
+    width: 88px;
+    height: 25px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,45%);
+    cursor: pointer;
+}
+.video-upload-label{
+	position: absolute;
+}
+.video-url-form{
+	position: relative;
+	padding:1rem;
+	/*width: 0px;*/
+	visibility: hidden;
+	display: none;
+
+}
+.video-url-form.add-video-display{
+	visibility: visible;
+	display: block;
+}
+.video-url-form > .form-group{
+	margin-bottom: 0rem !important;
+}
+.video-url-form form input[type='url'] {
+    width: 263px;
+    padding: 5px;
+}
+.video-url-form form input[type='submit']{
+    position: absolute;
+    top: 50%;
+    right: 56px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.video-url-form span{
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    transform: translate(-0%,-50%);
+    cursor: pointer;
+}
+.video-url-form span i.fa-times{
+	font-size: 1rem;
 }
 .video-contest-title{}
 textarea#exampleFormControlTextarea1 {

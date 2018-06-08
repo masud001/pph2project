@@ -11,6 +11,14 @@ $(document).ready(function(){
 		$('.search-field').toggleClass('serach-field-display');
 	});
 
+	$('.modal-upload-video').click( function(e){
+		$('.video-url-form').toggleClass('add-video-display');
+	});
+	// hide youtube url fild by clicking cross btn
+	$('.video-url-form span i.fa-times').click(function( e ){
+		$('.video-url-form').toggleClass('add-video-display');
+	});
+
 });
 
 
