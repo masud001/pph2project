@@ -89,6 +89,9 @@
     font-size: .55rem;
 }
 
+.video-url-form form input[type='url']{
+    width: 150px;
+}
 
 
 
@@ -400,7 +403,7 @@ span.contastant-views-btn {
 /*index_02.html page responsive start*/
 
 .header-login-area {
-    padding: 1rem;
+    padding: 1rem 0rem 0rem;
 }
 .slider-content {
     padding-top: 4rem;

@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 
 	// header search field display
-	$(".user-search i.fa-search").click(function( e ){
+	$(".user-search i.fa-search, .header-search-btn i.fa-search").click(function( e ){
 		$('.search-field').toggleClass('serach-field-display');
 	});
 

@@ -843,10 +843,10 @@ div.center div.testimonial-quote span i{
 
 /************FROM PDF PAGE-6 STYLE START INDEX_02**********************/
 
-#page-2 > header#main-header {
+#page-2 > section > header#main-header {
     margin-bottom: 0rem;
 }
-#page-2 > header#main-header > nav.navbar-area{
+#page-2 > section > section > header#main-header > nav.navbar-area{
 	box-shadow: none;
 }
 
@@ -901,7 +901,7 @@ div.center div.testimonial-quote span i{
 	-webkit-background-size: cover;
 	background-size: cover;
 	margin-bottom: 2rem;
-	margin-top: 2rem;
+	margin-top: 0rem;
 }
 .home-slider-wrapper{
 	background-image: url(../img/page-6/slider-overlay-1.png);
@@ -1355,9 +1355,9 @@ img.masud{
     color: #ED1763;
 }
 .modal-upload-img a span.upload-title{
-	font-size: .75rem;
-	font-weight: 800;
-	margin-top: 1rem;
+	font-size: .5rem;
+    font-weight: 800;
+    margin-top: 1.5rem;
 }
 .modal-upload-img a span.video-upload-title {
     font-size: .75rem;
@@ -1424,6 +1424,7 @@ color: #fff;
     position: relative;
 
 }
+
 .modal-upload-video a span {
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -1446,7 +1447,7 @@ color: #fff;
     cursor: pointer;
 }
 
-.modal-upload-video input[type='file'] {
+.modal-upload-img input[type='file'] {
     width: 88px;
     height: 25px;
     opacity: 0;
@@ -1467,6 +1468,7 @@ color: #fff;
 	display: none;
 
 }
+
 .video-url-form.add-video-display{
 	visibility: visible;
 	display: block;
