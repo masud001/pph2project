@@ -308,6 +308,10 @@ span.contastant-views-btn {
 /*// Large devices (desktops, 992px and up)*/
 @media (max-width: 991px){
 /*index.html page responsive start*/
+/*responsive mobile menu*/
+#mobile-menu-section-wrapper{
+    visibility: visible;
+}
 .main-menu-area{
 	display: none;
 }
@@ -343,6 +347,10 @@ span.contastant-views-btn {
 
 @media (min-width: 992px) {
 /*index.html page responsive start*/
+/*responsive mobile menu*/
+#mobile-menu-section-wrapper{
+    visibility: hidden;
+}
 .brand-logo a img {
     height: 50px;
 }
