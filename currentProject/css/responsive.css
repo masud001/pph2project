@@ -93,11 +93,28 @@
     width: 150px;
 }
 
+/*registration page responsive*/
+
+.registration-headding{
+    text-align: center;
+}
+.registration-method-1 ul li {
+    display: inline;
+    padding: 0rem;
+}
+.registration-method-1 ul li a{
+    margin: .5rem;
+}
 
 
+.continue-btn {
 
-
-
+    font-size: .7rem;
+    padding: .5rem 2rem;
+}
+.login-now-btn {
+    font-size: .7rem;
+}
 
 
 }
@@ -193,7 +210,25 @@ span.right-element {
 
 
 
+/*registration page responsive*/
 
+/*.registration-method-1 ul li {
+    display: inline;
+    padding: 0rem 0rem;
+}*/
+
+.registration-method-1 ul li a{
+    margin: .5rem;
+}
+
+
+.continue-btn {
+    font-size: .7rem;
+    padding: .5rem 2rem;
+}
+.login-now-btn {
+    font-size: .6rem;
+}
 
 
 
@@ -218,7 +253,14 @@ span.right-element {
 .contastant-search-btn {
     margin-right: 0rem;
 }
+.continue-btn {
 
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+.login-now-btn {
+    font-size: .7rem;
+}
 
 
 
@@ -228,6 +270,33 @@ span.right-element {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px){
+.registration-method-1 ul li {
+    display: inline;
+    padding: 0rem 0rem;
+}
+.login-page-area:before {
+    width: 2rem;
+}
+.login-page-headding h1,
+.login-page-content h1{
+    color: #000;
+}
+.login-page-content::before,
+.login-page-content::after{
+    background-color: #000;
+}
+/*login page responsive*/
+
+.login-privecy {
+    display: block;
+    float: none;
+    text-align: center;
+}
+.login-footer-menu{
+    text-align: center;
+    float: none;
+    display: block;
+}
 
 }
 @media (min-width: 768px) {
@@ -292,8 +361,6 @@ span.contastant-views-btn {
     width: 32px;
     height: 32px;
 }
-
-
 
 
 

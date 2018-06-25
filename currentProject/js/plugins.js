@@ -109,6 +109,225 @@ $(document).ready(function(){
   })
 });
 
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#banner-1').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:1,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-1').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:3,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-2').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:3,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-3').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-4').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-5').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-6').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-7').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-8').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// fwncy banner-1 page-13 slider 
+$(document).ready(function(){
+  $('#Listings-and-Broadcasts-9').owlCarousel({
+      loop:true,
+      autoplay: false,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:true,
+      lazyLoad:true,
+  })
+});
+
+// Partners-and-Clients
+$(document).ready(function(){
+  $('#Partners-Clients-carousel').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:10,
+      responsiveClass:true,
+      items:5,
+      center: true,
+      nav:false,
+      dots:false,
+      lazyLoad:true,
+  })
+});
+
+// Featured Audio and Video start
+$(document).ready(function(){
+  $('.single-Audio-Video-item').owlCarousel({
+      loop:true,
+      autoplay: true,
+      autoHeight:true,
+      mouseDrag: false,
+      touchDrag: true,
+      margin:0,
+      responsiveClass:true,
+      items:4,
+      center: true,
+      nav:false,
+      dots:false,
+      lazyLoad:true,
+  })
+});
+
 // magnificent popup init
 $(document).ready(function(){
 
@@ -121,11 +340,8 @@ $(document).ready(function(){
     ],
     type: 'image' // this is a default type
 
-
-
-
-
   });
 
 
 });
+
