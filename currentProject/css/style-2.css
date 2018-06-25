@@ -1,0 +1,9 @@
+.banner-1-bg-1{
+	background-image: url(../img/page-6/slider-img-01.jpg);
+	height: 400px;
+	background-color: #ededed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
